@@ -103,7 +103,7 @@ export default function FAQSection() {
                   {language === 'en' ? "Performance Knowledge Base" : "Base de Connaissances Performance"}
                 </div>
                 <BlurText 
-                   text={`${t.faq.headingPart1} ${t.faq.headingPart2}`}
+                   text={t.faq.heading}
                    direction="bottom"
                    className="text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-black tracking-tighter text-[#1a2f1c] mb-6 leading-[0.95]"
                 />
